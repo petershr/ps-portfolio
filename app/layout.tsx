@@ -6,15 +6,15 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://next-mdx-blog.vercel.app'),
+  metadataBase: new URL('https://ps-portfolio.vercel.app'),
   alternates: {
     canonical: '/'
   },
   title: {
-    default: 'John Smith',
-    template: '%s | John Smith'
+    default: 'Peter Shr',
+    template: '%s | Peter Shr'
   },
-  description: 'My portfolio, blog, and personal website.'
+  description: 'the portfolio of Peter Shr.'
 };
 
 export default function RootLayout({
